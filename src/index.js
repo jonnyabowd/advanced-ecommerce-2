@@ -4,6 +4,12 @@ import App from "./App";
 import "./index.css";
 import state from "./state";
 
+// let currentCategory = "tires";
+
+// function changeCategory(category) {
+
+// }
+
 function render() {
   ReactDOM.render(
     <App state={state} />,
